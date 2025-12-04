@@ -702,7 +702,12 @@
       if (!q) return alert("Masukkan kata kunci untuk mencari barang.");
       alert("Mencari: " + q);
     };
-
+   /* Search Button */
+    document.getElementById("searchBtn").onclick = () => {
+    // KOREKSI: Fungsi tombol diubah dari pencarian menjadi redirect ke halaman DAFTAR
+    // Menggunakan nama file dengan ekstensi ganda yang Anda tentukan
+    window.location.href = "Sign up.html.html";
+    };
     /* Login & Signup Redirect */
     document.getElementById("loginBtn").onclick = () => {
       window.location.href = "Login.html.html";
@@ -729,3 +734,4 @@
   </script>
 </body>
 </html>
+
