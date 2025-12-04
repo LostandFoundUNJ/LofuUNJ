@@ -702,12 +702,13 @@
       if (!q) return alert("Masukkan kata kunci untuk mencari barang.");
       alert("Mencari: " + q);
     };
-   /* Search Button */
+    /* Search Button */
     document.getElementById("searchBtn").onclick = () => {
     // KOREKSI: Fungsi tombol diubah dari pencarian menjadi redirect ke halaman DAFTAR
     // Menggunakan nama file dengan ekstensi ganda yang Anda tentukan
     window.location.href = "Sign up.html.html";
-    };
+};
+
     /* Login & Signup Redirect */
     document.getElementById("loginBtn").onclick = () => {
       window.location.href = "Login.html.html";
@@ -721,7 +722,7 @@
     document.getElementById("faqInput").oninput = (e) => {
       const val = e.target.value.toLowerCase();
       const p = document.querySelector(".faq-popular p");
-
+      
       if (!val)
         p.textContent = "Cara Delete Postingan, Cara Reset Password, Cara Ubah Profile.";
       else if (val.includes("password"))
@@ -734,4 +735,5 @@
   </script>
 </body>
 </html>
+
 
