@@ -72,6 +72,11 @@
       text-decoration:underline;
       text-underline-offset:4px;
     }
+    .nav-link.active {
+     color: var(--deep-orange);
+     text-decoration: underline;
+     text-underline-offset: 4px;
+    }
     .nav-icon{
       font-size:22px;
       cursor:pointer;
@@ -408,11 +413,11 @@
       <span class="logo-text">Lost &amp; Found</span>
     </div>
 
-    <nav class="nav-main">
-      <a href="Beranda kalo udah Login.html" class="nav-link">BERANDA</a>
-      <a href="#" class="nav-link active">TENTANG KAMI</a>
-      <a href="Akun saya.html" class="nav-link">AKUN SAYA</a>
-
+    <nav>
+<a href="#" class="nav-link">Beranda</a>
+<a href="#" class="nav-link active">Tentang Kami</a>
+<a href="#" class="nav-link">Akun Saya</a>
+</nav>
       <span id="notifBtn" class="nav-icon">🔔</span>
       <span id="faqBtn" class="nav-icon">❓</span>
       <button id="logoutBtn" class="logout-btn">LOG OUT</button>
@@ -659,6 +664,7 @@
   </script>
 </body>
 </html>
+
 
 
 
